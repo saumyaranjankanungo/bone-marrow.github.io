@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+hr{
+    background: grey;
+}
+.pd-40{
+    padding: 0 40px;
+}
+.pd-60{
+    padding: 0 60px;
+}
+.pd-80{
+    padding: 0 80px;
+}
+.pd-100{
+    padding: 0 100px;
+}
+#home_background{
+    width: 100%;
+    height: 90vh;
+    background: url('images/Banner_mage.png');
+    background-repeat: no-repeat;
+    margin: 0px 33px;
+    padding: 30px 0 0 140px;
+}
+
+#home_background .logo{
+    padding: 40px;
+}
+
+#home_background h2{
+    font-family: 'Titillium Web', sans-serif;
+    color: #FFF;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 40px;
+    width: 622px;
+    text-align: left;
+    padding: 10px;
+    margin-left: 25px;
+}
+#home_background h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 34px;
+    width: 599px;
+    text-align: left;
+    margin-left: 35px;
+}
+#home_background .b_button{
+    background-color: #DD5A6A;
+    border-radius: 3.2px;
+    width: 186px;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 35px;
+    border: none;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .2s ease-in-out;
+}
+#home_background .b_button:hover{
+    border: 2px solid #DD5A6A;
+    background: transparent;
+    transition: all .5s ease-in-out;
+}
+#home_background #enquiry_form{
+    background: #fff;
+    max-width: 339px;
+    padding: 10px 0;
+}
+#home_background #enquiry_form h5{
+    color: #213559;
+    font-size: 20.08px;
+    line-height: 24px;
+    padding: 8px;
+    margin-left: 20px;
+    font-weight: bolder;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#home_background #enquiry_form .form-group{
+    padding: 0 30px;
+}
+#home_background #enquiry_form .s_button{
+    background-color: #DD5A6A;
+    padding: 8px 25px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+}
+/* Bone marrow section */
+
+.bone_marrow .radiant_box{
+    background: linear-gradient(to right,#2EC4B8,#6078EA);
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 26px;
+    width: 575px;
+    text-align: left;
+    padding: 18px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.bone_marrow .col-xl-7 h4 {
+    color: #666464;
+    font-size: 17px;
+    line-height: 20px;
+    width: 575px;
+    text-align: left;
+    padding: 30px 0;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.096);
+}
+
+/* Doctors Section */
+#doctors{
+    padding-top: 60px;
+}
+#doctors h2{
+    color: #22B78E;
+    margin-left: 33px;
+}
+#doctors .doc_box{
+    margin: 20px;
+    padding: 30px;
+    background: #F9F9FF;
+    text-align: center;
+
+}
+#doctors .doc_box img{
+    padding-top: 30px;
+}
+#doctors .doc_box h1{
+    color: #1D5AA6;
+    font-size: 22px;
+    letter-spacing: 1.76px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 30px;
+}
+#doctors .doc_box p{
+    color: #1D5AA6;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+#doctors .doc_box .small_line{
+    border: 1px solid #22B78E;
+    background: #22B78E;
+    width: 37px;
+    height: 1px;
+}
+#doctors .doc_box span{
+    text-align: center;
+}
+#doctors .doc_box .doc_button{
+    background: linear-gradient(to right, #17EAD9, #6078EA);
+    border-radius: 4px;
+    width: 129px;
+    height: 49px;
+    border: none;
+    margin: 30px;
+    color: #fff;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+}
+#doctors .doc_box .doc_button:hover{
+    border: 2px solid #17EAD9;
+    background: transparent;
+    color: #000;
+    transition: all .3s ease-in-out;
+}
+
+/* Transplant List Section */
+#transplant_list{
+    padding-top: 60px;
+}
+#transplant_list h1{
+    color: #22B78E;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 44px;
+    text-align: left;
+    font-weight: 700;
+}
+#transplant_list ul{
+    list-style-image: url('images/hospital.png');
+}
+#transplant_list ul li{
+    padding: 10px;
+}
+
+/* warning section */
+#warning{
+    padding-top: 60px;
+}
+#warning h1{
+    color: #22B78E;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 44px;
+    text-align: left;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+#warning .row{
+    padding-bottom: 30px;
+}
+#warning .warning_box img{
+    text-align: left;
+    padding: 10px;
+}
+#warning .warning_box p{
+    text-align: left;
+}
+#warning .warning_box{
+    padding: 25px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5EAFF;
+    border-radius: 4px;
+    box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+    width: 255px;
+    height: 170px;
+}
+/* Details Section */
+
+.panel{
+    padding: 30px;;
+    width:100%;
+    margin:0 auto;
+}
+.panel_tab{
+    background: #f9f9f9;
+    border-color:#ddd;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+.tab_heading{
+    color: #1D5AA6;
+    border-bottom:1px solid #eee;
+    padding:15px 0px;
+    cursor:pointer;
+}
+.tab_heading span{ 
+    font-size:1.8rem;
+    font-weight:800;
+    color: #1D5AA6;
+    float: right;
+    margin-top: -40px;
+}
+.tab_content{
+    padding: 19px 15px;
+}
+
+.tab_content ul{
+    border-left:1px solid #eee;
+    padding-left:5px;
+    list-style-image: url('images/double-tick-indicator.png');
+}
+.tab_content ul li{
+    padding: 8px;
+}
+/* Testimonials */
+#testimonial{
+    padding-top: 60px;
+}
+#testimonial h1{
+    color: #22B78E;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 44px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+figure.testimonial {
+    background: rgba(0, 0, 0, 0.055);
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	padding: 0 20px;
+	text-align: left;
+	box-shadow: none !important;
+}
+figure.testimonial .peopl h3, p{
+    color: black;
+}
+figure.testimonial * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+	transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+figure.testimonial img {
+	max-width: 100%;
+	vertical-align: middle;
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	margin: 40px 0 0 10px;
+}
+figure.testimonial blockquote {
+	background-color: #fff;
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 25px 50px 30px;
+	position: relative;
+}
+figure.testimonial blockquote:before, figure.testimonial blockquote:after {
+	content: "\201C";
+	position: absolute;
+	color: #ff5057;
+	font-size: 50px;
+	font-style: normal;
+}
+figure.testimonial blockquote:before {
+	top: 25px;
+	left: 20px;
+}
+figure.testimonial blockquote:after {
+	content: "\201D";
+	right: 20px;
+	bottom: 0;
+}
+figure.testimonial .btn {
+	top: 100%;
+	width: 0;
+	height: 0;
+	border-left: 0 solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 25px solid #fff;
+	margin: 0;
+	position: absolute;
+}
+figure.testimonial .peopl {
+	position: absolute;
+	bottom: 45px;
+	padding: 0 10px 0 120px;
+	margin: 0;
+	color: #ffffff;
+	-webkit-transform: translateY(50%);
+	transform: translateY(50%);
+}
+figure.testimonial .peopl h3 {
+	opacity: 0.9;
+	margin: 0;
+}
+.slick-slider {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	user-select: none;
+	-webkit-touch-callout: none;
+	-khtml-user-select: none;
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
+	-webkit-tap-highlight-color: transparent;
+}
+.slick-list {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+.slick-list:focus {
+	outline: none;
+}
+.slick-list.dragging {
+	cursor: pointer;
+	cursor: hand;
+}
+.slick-slider .slick-track, .slick-slider .slick-list {
+	transform: translate3d(0, 0, 0);
+}
+.slick-track {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+}
+.slick-track:before, .slick-track:after {
+	display: table;
+	content: '';
+}
+.slick-track:after {
+	clear: both;
+}
+.slick-loading .slick-track {
+	visibility: hidden;
+}
+.slick-slide {
+	display: none;
+	float: left;
+	height: 100%;
+	min-height: 1px;
+}
+.slick-slide img {
+	display: block;
+}
+.slick-slide.slick-loading img {
+	display: none;
+}
+.slick-slide.dragging img {
+	pointer-events: none;
+}
+.slick-initialized .slick-slide {
+	display: block;
+}
+.slick-loading .slick-slide {
+	visibility: hidden;
+}
+.slick-vertical .slick-slide {
+	display: block;
+	height: auto;
+	border: 1px solid transparent;
+}
+.slick-btn.slick-hidden {
+	display: none;
+}
+
+.slick-prev, .slick-next {
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	top: 40%;
+	display: block;
+	width: 20px;
+	height: 20px;
+	padding: 0;
+	transform: translate(0, -50%);
+	cursor: pointer;
+	color: transparent;
+	border: none;
+	outline: none;
+	background: transparent;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+	color: transparent;
+	outline: none;
+	background: transparent;
+}
+.slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before {
+	opacity: 1;
+}
+.slick-prev:before, .slick-next:before {
+	font-family: "FontAwesome";
+	font-size: 40px;
+	line-height: 1;
+	opacity: .75;
+	color: #000;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.slick-prev {
+	left: -40px;
+}
+.slick-prev:before {
+	content: "";
+}
+.slick-next {
+	right: -40px;
+}
+
+.slick-next:before {
+	content: "";
+}
+#testimonial .apt_btn{
+    background-color: #004498;
+    border-radius: 3.81px;
+    width: 221px;
+    height: 54px;
+    color: white;
+    border: none;
+    transition: all .3s ease-in-out;
+}
+#testimonial .apt_btn:hover{
+    background: transparent;
+    border: 2px solid #004498;
+    transition: all .3s ease-in-out;
+    color: #000;
+}
+/* footer */
+#footer{
+    margin-top: 60px;
+    margin-left: 30px;
+    background-color: #272727;
+    width: 1440px;
+    height: 256px;
+}
+#footer ul li img{
+    margin-top: 50px;
+
+}
+#footer ul li{
+    display: inline-flex;
+    list-style-type: none;
+    padding: 5px;
+
+}
+#footer p{
+    color: white;
+}
